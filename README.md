@@ -6,7 +6,7 @@ Linux Networking &amp; Logging Cheat Sheet – Quick reference for managing netw
 
 
 ip link show        # 🔹 Show all network interfaces with status (UP/DOWN) and MAC addresses
-ifconfig            # 🔹 Show IP, MAC, RX/TX bytes for each interface [deprecated but useful]
+ifconfig            # 🔹 Show IP, MAC, RX/TX bytes for each interface [deprecated but useful
 ip address show     # 🔹 Display all IP addresses assigned to interfaces
 ip -s link show <interface>  # 🔹 Show RX/TX stats, errors, dropped packets
 ip -br a s          # 🔹 Briefly display interfaces and IP addresses
